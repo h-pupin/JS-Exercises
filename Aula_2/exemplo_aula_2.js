@@ -81,3 +81,21 @@ console.log(palavras)
 
 let novaFrase = palavras.join("-") //Faz uma String
 console.log(novaFrase)
+
+
+//FUNÇÃO MAP
+
+const entrada = [1,2,3,4,5];
+//const saida = [];
+
+function operar(val, index, vetor){
+    return val * index;
+}
+//map chama a função e passa valor, indice, vetor.
+const saida = entrada.map(operar) //substitui essa de baixo
+
+//for(let i=0; i<entrada.length; i++){
+//    saida.push(operar(entrada[i], i, entrada));
+//}
+console.log(saida);
+

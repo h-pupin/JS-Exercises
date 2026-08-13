@@ -1,4 +1,3 @@
-alert("Perigo!!!")
 let numero = prompt("Digite um número: ");
 let a = 0;
 let b = 1;
